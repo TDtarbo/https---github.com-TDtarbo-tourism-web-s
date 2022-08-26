@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 188, 2);
+    height: 50px;
+    overflow: hidden;
+    font-family: Candara;
+}
+
+
+
+/*Navigation bar*/
+
+nav ul {
+    overflow: hidden;
+
+    font-size: 18px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 0px;
+    transition: 0.5s;
+    background-image: linear-gradient(rgba(94, 88, 88, 0.548),
+            rgba(0, 0, 0, 0.514));
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 5px;
+    text-decoration: none;
+    padding-inline: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.active,
+.btn:hover {
+    background-image: linear-gradient(rgba(185, 3, 3, 0.712),
+            rgba(179, 6, 6, 0.856));
+    transition: 0.1s;
+}
+
+#searchBar {
+    position: absolute;
+    margin: -45px 0 0 450px;
+    padding-inline: 35px;
+    padding-block: 5px;
+}
+
+button {
+    position: absolute;
+    margin: -45px 0 0 687px;
+    padding: 2px 5px 5px 2px;
+}
+
+
+
+
+
+/*Body section*/
+
+#body h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    float: right;
+    margin-right: 200px;
+}
+
+#body h2 {
+    font-size: 40px;
+    margin: 80px 0 0 40px;
+}
+
+#line1 {
+    background-color: red;
+    height: 5px;
+    width: 1100px;
+    margin-left: 400px;
+    margin-top: -20px;
+    float: right;
+}
+
+#line2 {
+    background-color: red;
+    height: 5px;
+    width: 1000px;
+    margin-left: 400px;
+    margin-top: -20px;
+    float: right;
+}
+
+#logo {
+    float: left;
+    margin-left: 200px;
+    width: 180px;
+    margin-top: 40px;
+}
+
+#photo {
+    margin-top: 100px;
+    width: 45%;
+    margin-left: 30px;
+}
+
+#intro-img {
+    box-shadow: 0px 20px 0px rgb(255, 0, 0);
+    padding-bottom: 20px;
+}
+
+#intro {
+
+    float: right;
+    width: 700px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+/*Up comming Events*/
+
+.gallery {
+    margin: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    float: left;
+    transition: .5s;
+
+}
+
+.gallery:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+}
+
+.topic {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#galllery {
+
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/*OUSL Study Programmes*/
+
+#programe-type {
+
+    width: 700px;
+    float: right;
+    margin: 80px 150px 50px 0;
+}
+
+#body ul li {
+
+    list-style-type: circle;
+    margin-block: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+
+/*Founders of OUSL*/
+
+#founder {
+
+    margin-bottom: 50px;
+}
+
+#founder-left {
+
+    float: left;
+    width: 1250px;
+}
+
+#founder-left p {
+
+    font-size: 16px;
+    margin: 50px 50px 0 50px;
+    font-family: sans-serif;
+}
+
+
+
+/*footer section*/
+
+footer {
+    background-color: rgb(255, 174, 0);
+    background-image: linear-gradient(rgba(241, 163, 19, 0.637),rgb(231, 131, 0));
+    width: 100%;
+    font-family: "Open sans";
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer-content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+}
+
+#footer-content p {
+    max-width: 1500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer-bottom {
+    background-image: linear-gradient(rgb(112, 3, 3), rgb(112, 3, 3));
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer-bottom p {
+    font-size: 13px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#social-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 30px;
+}
+
+#social-icons li {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+#social-icons a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
